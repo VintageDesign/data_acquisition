@@ -1,0 +1,1786 @@
+<!doctype html>
+<html dir="ltr" lang="en">
+
+<head>
+	<meta charset='utf-8'>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description"
+		content="TheOtherBoard is an adult dating community featuring Profiles, Reviews, References, Listings and Discussion Forums">
+	<meta name="keywords"
+		content="escorts, escort reviews, texas escorts, dallas escorts, houston escorts, new york escorts, showcase, austin escorts, escort directory, chat, asian massage parlor, AMP reviews, topless bar, chat, female escorts, service provider, strip club, agency, agencies, escort services, escort review, escort, erie escorts, philadelphia escorts, pittsburgh escorts, harrisburg escorts, pennsylvania escorts, san antonio escorts, west texas escorts, south texas escorts, new orleans escorts, shreveport escorts, florida escorts, miami escorts, tampa escorts, los angeles escorts, san francisco escorts, sacramento escorts, san diego escorts, alabama escorts, alaska escorts, arizona escorts, arkansas escorts, atlanta escorts, boston escorts, carolina escorts, chicago escorts, connecticut escorts, dakota escorts, delaware escorts, denver escorts, hawaii escorts, idaho escorts, indiana escorts, iowa escorts, kansas city escorts, kentucky escorts, las vegas escorts, maine escorts, maryland escorts, michigan escorts, minnesota escorts, mississippi escorts, montana escorts, nebraska escorts, new hampshire escorts, new jersey escorts, new mexico escorts, ohio escorts, oklahoma escorts, portland escorts, rhode island escorts, seattle escorts, st louis escorts, missouri escorts, tennessee escorts, utah escorts, vermont escorts, virginia escorts, washington dc escorts, west virginia escorts, wisconsin escorts, wyoming escorts" />
+	<meta name="robots" content="index, follow" />
+	<link href='//fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+	<link href='//fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+	<title>JoDoe27's Profile</title>
+	<link media="all" type="text/css" rel="stylesheet" href="https://theotherboard.com/css/bootstrap.css">
+
+	<link media="all" type="text/css" rel="stylesheet" href="https://theotherboard.com/css/bootstrap-select.min.css">
+
+	<link media="all" type="text/css" rel="stylesheet" href="https://theotherboard.com/css/bootstrap-datepicker3.css">
+
+	<link media="all" type="text/css" rel="stylesheet" href="https://theotherboard.com/css/jquery.timepicker.css">
+
+	<link media="all" type="text/css" rel="stylesheet" href="https://theotherboard.com/css/magnific-popup.css">
+
+	<link media="all" type="text/css" rel="stylesheet" href="https://theotherboard.com/css/sceditor.default.min.css">
+
+	<link media="all" type="text/css" rel="stylesheet"
+		href="https://theotherboard.com/css/custom-theme/jquery-ui-1.10.0.custom.css">
+
+	<link media="all" type="text/css" rel="stylesheet"
+		href="https://theotherboard.com/css/custom-theme/jquery.ui.1.10.0.ie.css">
+
+	<link media="all" type="text/css" rel="stylesheet" href="https://theotherboard.com/css/klaus-v5.css">
+
+	<link media="all" type="text/css" rel="stylesheet" href="https://theotherboard.com/css/main.css">
+
+	<link media="all" type="text/css" rel="stylesheet" href="https://theotherboard.com/css/custom.css">
+
+	<script src="https://theotherboard.com/js/jquery-1.11.2.min.js"></script>
+
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+	<script>
+		var hasUploadPermission = false;
+		var galleryUrl = 'https://theotherboard.com/image';
+		var uploadUrl = 'https://theotherboard.com/image';
+		var notesUrl = 'https://theotherboard.com/notes';
+		var namecheckUrl = 'https://theotherboard.com/namecheck';
+		var latestReviewUrl = 'https://theotherboard.com/users/latest-review';
+		var toggleReviewPermissionUrl = 'https://theotherboard.com/referral-permission';
+		var bbeditorStyleSheet = 'https://theotherboard.com/css/sceditor.default.min.css';
+
+		var helpPopups = [];
+
+		helpPopups['ad'] = "<p class='pre-format'>\nClicking on the Title line will display the body of the listing\nClicking on the thumbnail will open the picture area\nClicking on the user name will take you to that member's profile page where you can view additional pictures if available, send a message to that member and other  information\nTo the right of their thumbnail, if available, is that members P411 link, Datecheck link, Personal Website, Average Looks and Average Reviews cumulative rating\nBelow the thumbnail are 4 clickable icons\nEye- the body of the listing, which is displayed by default\nCamera*- all the pictures attached to that listing\nBook- all the reviews that user has linked to the profile\nI- statistical information about that user\n\n* camera- The pictures have two cloud icons the first allows you to do a TinEye picture search and the second allows you to do a Google picture search. This will help you weed out fake or stolen pictures.\n<\/p>";
+		helpPopups['pending-reference-requests'] = "<p class='pre-format'>\nThis is a list of Pending TOB members that have requested a reference from you. It will allow them to show other users that you have provided them a reference. You can take this reference back at any time. It contains their TOB user name, the date this request was made, the date they had a session with you along with a description on the meeting. Should you need more information click on the user name and send them a message from their profile page. Once you approve the reference other users will only see your user name and date the reference was approved and not the details of the session. For the safety and security of other users only provide references to those TOB members you had a session with.\n<\/p>";
+		helpPopups['provider-references'] = "<p class='pre-format'>\nThis is a list of TOB members that you have given a reference to. If you click Withdraw the reference will be removed. Should you need to contact that TOB member click on their user name and send them a message from their profile page.\n<\/p>";
+		helpPopups['provider-shared-profiles'] = "<p class='pre-format'>\nThis is a list of TOB members that have allowed you access to their profile and reference area. When you click on their user name you will be able to see all of their TOB references and any personal references they have entered. This should assist you in your screening process.\n<\/p>";
+		helpPopups['review'] = "<p class='pre-format'>\nHover over the review, then click, this will expand the review and display the information below. Click again to collapse the field.\nClick the user name to see their profile page.\n\nReviewed by: The TOB member that submitted the review, Number of Reviews Submitted by that Reviewer, the Date the session occurred\nThe Time of the session, The general Location and if it was Incall or Outcall\n\nWould they recommend this user, Was the user a smoker, Were the pictures accurate,\nIn some cases there may be Additional Website Links\n\nFinally, a list of stats submitted by the reviewer\n<\/p>";
+		helpPopups['reviewer-external-references'] = "<p class='pre-format'>\nThis is a list of non-TOB users that you have added as your personal references. Any TOB user or non-TOB user you share your profile and references with will have access to this information. This should make your screening process go smoother.\n<\/p>";
+		helpPopups['reviewer-references'] = "<p class='pre-format'>\nThis is a list of TOB users that have given you a reference. You can share these references with TOB users by clicking the Share References button on that user's profile page. You can also send a secure link to any users email or phone regardless if they are a member of TOB. This will allow them access to your profile and references for 7 days, at which time the link is terminated for your security. You can always send another link if needed. This should make your screening process go smoother.\n<\/p>";
+
+		var userId = '';
+	</script>
+
+
+	<script type='text/javascript'>
+		var ipsDebug = false;
+
+		var CKEDITOR_BASEPATH = '//theotherboard.com/forum/applications/core/interface/ckeditor/ckeditor/';
+
+		var ipsSettings = {
+
+
+
+			cookie_path: "/",
+
+
+			cookie_prefix: "ips4_",
+
+
+			cookie_ssl: true,
+
+			imgURL: "",
+			baseURL: "//theotherboard.com/forum/",
+			jsURL: "//theotherboard.com/forum/applications/core/interface/js/js.php",
+			csrfKey: "602bd6588ed261489da8a4d71b055317",
+			antiCache: "4b4eac26bb",
+			disableNotificationSounds: false,
+			useCompiledFiles: true,
+			links_external: 1,
+			memberID: 0
+		};
+	</script>
+
+
+
+	<script type='text/javascript'
+		src='https://theotherboard.com/forum/uploads/javascript_global/root_library.js.510629bb118a2431b6236e534bff0b6f.js?v=4b4eac26bb'
+		data-ips></script>
+
+
+	<script type='text/javascript'
+		src='https://theotherboard.com/forum/uploads/javascript_global/root_js_lang_1.js.cff359dec763124aec59109a500426ca.js?v=4b4eac26bb'
+		data-ips></script>
+
+
+	<script type='text/javascript'
+		src='https://theotherboard.com/forum/uploads/javascript_global/root_framework.js.b3ffc7923f9a99c2fc7ebc403a5a9dbd.js?v=4b4eac26bb'
+		data-ips></script>
+
+
+	<script type='text/javascript'
+		src='https://theotherboard.com/forum/uploads/javascript_core/global_global_core.js.efccee1d40b4a47f578bac52db8d4fa3.js?v=4b4eac26bb'
+		data-ips></script>
+
+
+	<script type='text/javascript'
+		src='https://theotherboard.com/forum/uploads/javascript_core/plugins_plugins.js.253fd64e0b797c66e9d204f99d1f5328.js?v=4b4eac26bb'
+		data-ips></script>
+
+
+	<script type='text/javascript'
+		src='https://theotherboard.com/forum/uploads/javascript_global/root_front.js.14c08b2e547874ca8844e5f6fcfd3be5.js?v=4b4eac26bb'
+		data-ips></script>
+
+
+
+	<script type='text/javascript'>
+
+		ips.setSetting('date_format', jQuery.parseJSON('"mm\/dd\/yy"'));
+
+		ips.setSetting('date_first_day', jQuery.parseJSON('0'));
+
+		ips.setSetting('remote_image_proxy', jQuery.parseJSON('0'));
+
+
+	</script>
+
+
+</head>
+
+<body data-controller="core.front.core.app" data-message="" data-pageapp="forums" data-pagelocation="front"
+	data-pagemodule="forums" data-pagecontroller="index">
+	<!--googleoff: all-->
+	<div class="modal fade" id="notes-popup" tabindex="-1">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+							aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title">Notes</h4>
+				</div>
+				<div class="modal-body">
+					<textarea class='form-control'></textarea>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary confirm">Save</button>
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="false-info-popup" tabindex="-1">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+							aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title">Details</h4>
+				</div>
+				<div class="modal-body">
+
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="popup-flash" tabindex="-1">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body">
+					<p>You have a Pending Reference from USER NAME(s)</p>
+					<p>To clear this message, scroll down the page and Give Reference or Reject the request.</p>
+				</div>
+				<div class="modal-footer">
+					<button id="btn-close" type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+		<script>
+			$(function () {
+				$('#popup-flash #btn-close').on('click', function () {
+					$('#popup-flash .modal-body').html('');
+				});
+			});
+		</script>
+	</div>
+	<div class="ipsApp ipsApp_front ipsClearfix" data-controller="core.front.core.app" data-message=""
+		data-pageapp="forums" data-pagelocation="front" data-pagemodule="forums" data-pagecontroller="index">
+
+
+		<link rel='stylesheet'
+			href='https://theotherboard.com/forum/uploads/css_built_2/341e4a57816af3ba440d891ca87450ff_framework.css.bff78cba3d549531a588be1930885a85.css?v=4b4eac26bb'
+			media='all'>
+
+		<link rel='stylesheet'
+			href='https://theotherboard.com/forum/uploads/css_built_2/05e81b71abe4f22d6eb8d1a929494829_responsive.css.23d2eeb4b2efc30346828aa86df0a5b4.css?v=4b4eac26bb'
+			media='all'>
+
+		<link rel='stylesheet'
+			href='https://theotherboard.com/forum/uploads/css_built_2/90eb5adf50a8c640f633d47fd7eb1778_core.css.3bcc9acc0a7a17eedd827f83a7c8e96a.css?v=4b4eac26bb'
+			media='all'>
+
+		<link rel='stylesheet'
+			href='https://theotherboard.com/forum/uploads/css_built_2/5a0da001ccc2200dc5625c3f3934497d_core_responsive.css.d5a5b1b6c5b06fdf7e00f5776e588877.css?v=4b4eac26bb'
+			media='all'>
+
+		<link rel='stylesheet'
+			href='https://theotherboard.com/forum/uploads/css_built_2/62e269ced0fdab7e30e026f1d30ae516_forums.css.4ba2046c4654fe2a837ab6fec1ea266c.css?v=4b4eac26bb'
+			media='all'>
+
+		<link rel='stylesheet'
+			href='https://theotherboard.com/forum/uploads/css_built_2/76e62c573090645fb99a15a363d8620e_forums_responsive.css.b99294f7297c1115b3195a961b2ff2e1.css?v=4b4eac26bb'
+			media='all'>
+
+
+
+
+		<link rel='stylesheet'
+			href='https://theotherboard.com/forum/uploads/css_built_2/258adbb6e4f3e83cd3b355f84e3fa002_custom.css.4a4d46f4a3c73293f538386279a5911c.css?v=4b4eac26bb'
+			media='all'>
+
+
+
+		<div id='ipsLayout_header' class='ipsClearfix'>
+			<header>
+				<div class='ipsLayout_container'>
+					<div><a href='https://theotherboard.com/index'><img class='img-responsive'
+								src='https://theotherboard.com/img/logo.png' alt='TheOtherBoard' /></a></div>
+
+
+					<div id='elUserNav'
+						class='ipsList_inline cSignedOut ipsClearfix ipsResponsive_hidePhone ipsResponsive_block'>
+
+						<a class='ipsPad' href='https://theotherboard.com/forum/../login'>Login</a>
+
+						<a href='https://theotherboard.com/forum/../register/1'><span
+								class='ipsButton ipsButton_alternate'>Join</span></a>
+					</div>
+					<!--
+	<ul id='elUserNav' class='ipsList_inline cSignedOut ipsClearfix ipsResponsive_hidePhone ipsResponsive_block'>
+		<li id='elSignInLink'>
+			<a href='https://theotherboard.com/forum/index.php?/login/' data-ipsMenu-closeOnClick="false" data-ipsMenu id='elUserSignIn'>
+				Login &nbsp;<i class='fa fa-caret-down'></i>
+			</a>
+			
+<div id='elUserSignIn_menu' class='ipsMenu ipsMenu_auto ipsHide'>
+	<div data-role="loginForm">
+		
+		
+			
+				
+<form accept-charset='utf-8' class="ipsPad ipsForm ipsForm_vertical" method='post' action='https://theotherboard.com/forum/index.php?/login/' data-ipsValidation novalidate>
+	<input type="hidden" name="login__standard_submitted" value="1">
+	
+		<input type="hidden" name="csrfKey" value="602bd6588ed261489da8a4d71b055317">
+	
+	<h4 class="ipsType_sectionHead">Sign In</h4>
+	<br><br>
+	<ul class='ipsList_reset'>
+		
+			
+				
+					<li class="ipsFieldRow ipsFieldRow_noLabel ipsFieldRow_fullWidth">
+						<input type="email" required placeholder="Email Address" name='auth' id='auth'>
+					</li>
+				
+			
+				
+					<li class="ipsFieldRow ipsFieldRow_noLabel ipsFieldRow_fullWidth">
+						<input type="password" required placeholder="Password" name='password' id='password'>
+					</li>
+				
+			
+				
+					
+<li class="ipsFieldRow ipsFieldRow_checkbox ipsClearfix " id="ca87717906fa895dc477ab66d7210586" >
+	
+		
+		
+<input type="hidden" name="remember_me" value="0">
+<span class='ipsCustomInput'>
+	<input
+		type='checkbox'
+		role='checkbox'
+		name='remember_me_checkbox'
+		value='1'
+		id="check_ca87717906fa895dc477ab66d7210586"
+		checked aria-checked='true'
+		
+		
+		
+		
+		
+		
+	>
+	
+	<span></span>
+</span>
+
+
+		
+		<div class="ipsFieldRow_content">
+			<label class="ipsFieldRow_label" for="check_ca87717906fa895dc477ab66d7210586">Remember me </label>
+			
+
+
+<span class='ipsFieldRow_desc'>
+	Not recommended on shared computers
+</span>
+			
+			
+		</div>
+	
+</li>
+				
+			
+		
+		<li class="ipsFieldRow ipsFieldRow_fullWidth">
+			<br>
+			<button type="submit" class="ipsButton ipsButton_primary ipsButton_small" id="elSignIn_submit">Sign In</button>
+			<br>
+			<p class="ipsType_right ipsType_small">
+				<a href='https://theotherboard.com/forum/index.php?/lostpassword/' data-ipsDialog data-ipsDialog-title='Forgot your password?'>Forgot your password?</a>
+			</p>
+		</li>
+	</ul>
+</form>
+			
+		
+		
+	</div>
+</div>
+		</li>
+		
+	</ul>
+	-->
+
+				</div>
+			</header>
+
+			<ul id='elMobileNav' class='ipsList_inline ipsResponsive_hideDesktop ipsResponsive_block'
+				data-controller='core.front.core.mobileNav'>
+
+
+
+				<li>
+					<a data-action="defaultStream" class='ipsType_light'
+						href='https://theotherboard.com/forum/index.php?/discover/'><i class='icon-newspaper'></i></a>
+				</li>
+
+
+				<li class='ipsJS_show'>
+					<a href='https://theotherboard.com/forum/index.php?/search/' data-action="mobileSearch"><i
+							class='fa fa-search'></i></a>
+				</li>
+
+				<li data-ipsDrawer data-ipsDrawer-drawerElem='#elMobileDrawer'>
+					<a href='#'>
+
+
+
+
+
+
+						<i class='fa fa-navicon'></i>
+					</a>
+				</li>
+			</ul>
+
+
+			<nav class='ipsLayout_container' data-controller='core.front.core.navBar'>
+				<div class='ipsNavBar_primary ipsNavBar_noSubBars ipsClearfix'>
+
+					<div id='elSearch' class='ipsPos_right' data-controller='core.front.core.quickSearch'
+						itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction"
+						data-default="all">
+						<form accept-charset='utf-8' action='https://theotherboard.com/forum/index.php?/search/'
+							method='post'>
+							<meta itemprop="target"
+								content="https://theotherboard.com/forum/index.php?/search/&amp;q={q}">
+							<input type="hidden" name="type" value="all" data-role="searchFilter">
+							<a href='#' id='elSearchFilter' data-ipsMenu data-ipsMenu-selectable='radio'
+								data-ipsMenu-appendTo='#elSearch' class="ipsHide">
+								<span data-role='searchingIn'>
+									All Content
+								</span>
+								<i class='fa fa-caret-down'></i>
+							</a>
+							<ul id='elSearchFilter_menu' class='ipsMenu ipsMenu_selectable ipsMenu_narrow ipsHide'>
+								<li class='ipsMenu_item ipsMenu_itemChecked' data-ipsMenuValue='all'>
+									<a href='https://theotherboard.com/forum/?app=core&amp;module=search&amp;controller=search&amp;csrfKey=602bd6588ed261489da8a4d71b055317'
+										title='All Content'>All Content</a>
+								</li>
+								<li class='ipsMenu_sep'>
+									<hr>
+								</li>
+
+								<li data-role='globalSearchMenuOptions'></li>
+								<li class='ipsMenu_item ipsMenu_itemNonSelect'>
+									<a href='https://theotherboard.com/forum/index.php?/search/' accesskey='4'><i
+											class='fa fa-cog'></i> Advanced Search</a>
+								</li>
+							</ul>
+							<input type='search' id='elSearchField' placeholder='Search...' name='q'
+								itemprop="query-input">
+							<button type='submit'><i class='fa fa-search'></i></button>
+						</form>
+					</div>
+
+					<ul data-role="primaryNavBar" class='ipsResponsive_showDesktop ipsResponsive_block'>
+
+
+
+
+
+						<li id='elNavSecondary_12' data-role="navBarItem" data-navApp="core" data-navExt="CustomItem">
+
+
+							<a href="https://theotherboard.com/listings" data-navItem-id="12">
+								Listings
+							</a>
+
+
+						</li>
+
+
+
+
+
+						<li id='elNavSecondary_13' data-role="navBarItem" data-navApp="core" data-navExt="CustomItem">
+
+
+							<a href="https://theotherboard.com/escort-reviews" data-navItem-id="13">
+								Reviews
+							</a>
+
+
+						</li>
+
+
+
+
+
+
+
+						<li class='ipsNavBar_active' data-active id='elNavSecondary_17' data-role="navBarItem"
+							data-navApp="core" data-navExt="Menu">
+
+
+							<a href="#" id="elNavigation_17" data-ipsMenu data-ipsMenu-appendTo='#elNavSecondary_17'
+								data-ipsMenu-activeClass='ipsNavActive_menu' data-navItem-id="17" data-navDefault>
+								Forum <i class="fa fa-caret-down"></i>
+							</a>
+							<ul id="elNavigation_17_menu" class="ipsMenu ipsMenu_auto ipsHide">
+
+
+
+
+								<li class='ipsMenu_item'>
+									<a href='https://theotherboard.com/forum/index.php?/'>
+										Forums
+									</a>
+								</li>
+
+
+
+
+
+
+
+								<li class='ipsMenu_item'>
+									<a href='https://theotherboard.com/forum/index.php?/staff/'>
+										Staff
+									</a>
+								</li>
+
+
+
+
+
+								<li class='ipsMenu_item'>
+									<a href='https://theotherboard.com/forum/index.php?/online/'>
+										Online Users
+									</a>
+								</li>
+
+
+
+
+
+								<li class='ipsMenu_item'>
+									<a href='https://theotherboard.com/forum/index.php?/411/'>
+										411
+									</a>
+								</li>
+
+
+
+							</ul>
+
+
+						</li>
+
+
+
+
+
+						<li id='elNavSecondary_14' data-role="navBarItem" data-navApp="core" data-navExt="Menu">
+
+
+							<a href="#" id="elNavigation_14" data-ipsMenu data-ipsMenu-appendTo='#elNavSecondary_14'
+								data-ipsMenu-activeClass='ipsNavActive_menu' data-navItem-id="14">
+								Why Join <i class="fa fa-caret-down"></i>
+							</a>
+							<ul id="elNavigation_14_menu" class="ipsMenu ipsMenu_auto ipsHide">
+
+
+
+
+								<li class='ipsMenu_item'>
+									<a href='https://theotherboard.com/page/1'>
+										Gentleman
+									</a>
+								</li>
+
+
+
+
+
+								<li class='ipsMenu_item'>
+									<a href='https://theotherboard.com/page/2'>
+										Ladies
+									</a>
+								</li>
+
+
+
+							</ul>
+
+
+						</li>
+
+
+
+
+
+						<li id='elNavSecondary_28' data-role="navBarItem" data-navApp="core" data-navExt="Menu">
+
+
+							<a href="#" id="elNavigation_28" data-ipsMenu data-ipsMenu-appendTo='#elNavSecondary_28'
+								data-ipsMenu-activeClass='ipsNavActive_menu' data-navItem-id="28">
+								Help <i class="fa fa-caret-down"></i>
+							</a>
+							<ul id="elNavigation_28_menu" class="ipsMenu ipsMenu_auto ipsHide">
+
+
+
+
+								<li class='ipsMenu_item'>
+									<a href='https://theotherboard.com/page/3'>
+										Gentlemen
+									</a>
+								</li>
+
+
+
+
+
+								<li class='ipsMenu_item'>
+									<a href='https://theotherboard.com/page/4'>
+										Ladies
+									</a>
+								</li>
+
+
+
+							</ul>
+
+
+						</li>
+
+
+
+
+
+						<li id='elNavSecondary_22' data-role="navBarItem" data-navApp="core" data-navExt="Menu">
+
+
+							<a href="#" id="elNavigation_22" data-ipsMenu data-ipsMenu-appendTo='#elNavSecondary_22'
+								data-ipsMenu-activeClass='ipsNavActive_menu' data-navItem-id="22">
+								Activity <i class="fa fa-caret-down"></i>
+							</a>
+							<ul id="elNavigation_22_menu" class="ipsMenu ipsMenu_auto ipsHide">
+
+
+
+
+								<li class='ipsMenu_item'>
+									<a href='https://theotherboard.com/forum/index.php?/discover/'>
+										All Activity
+									</a>
+								</li>
+
+
+
+
+
+
+
+
+
+
+
+								<li class='ipsMenu_item'>
+									<a href='https://theotherboard.com/forum/index.php?/search/'>
+										Search
+									</a>
+								</li>
+
+
+
+							</ul>
+
+
+						</li>
+
+
+						<li class='ipsHide' id='elNavigationMore' data-role='navMore'>
+							<a href='#' data-ipsMenu data-ipsMenu-appendTo='#elNavigationMore'
+								id='elNavigationMore_dropdown'>More</a>
+							<ul class='ipsNavBar_secondary ipsHide' data-role='secondaryNavBar'>
+								<li class='ipsHide' id='elNavigationMore_more' data-role='navMore'>
+									<a href='#' data-ipsMenu data-ipsMenu-appendTo='#elNavigationMore_more'
+										id='elNavigationMore_more_dropdown'>More <i class='fa fa-caret-down'></i></a>
+									<ul class='ipsHide ipsMenu ipsMenu_auto' id='elNavigationMore_more_dropdown_menu'
+										data-role='moreDropdown'></ul>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</nav>
+
+
+			<div id='elMobileDrawer' class='ipsDrawer ipsHide'>
+				<a href='#' class='ipsDrawer_close' data-action='close'><span>&times;</span></a>
+				<div class='ipsDrawer_menu'>
+					<div class='ipsDrawer_content'>
+
+
+						<div class='ipsSpacer_bottom ipsPad'>
+							<ul class='ipsToolList ipsToolList_vertical'>
+
+
+								<li>
+									<a href='https://theotherboard.com/forum/../login'
+										class='ipsButton ipsButton_light ipsButton_small ipsButton_fullWidth'>Login</a>
+								</li>
+
+
+								<li>
+									<a href='https://theotherboard.com/forum/../register/1' id='elRegisterButton_mobile'
+										class='ipsButton ipsButton_small ipsButton_fullWidth ipsButton_important'>Join</a>
+								</li>
+
+
+
+
+							</ul>
+						</div>
+
+						<ul class='ipsDrawer_list'>
+
+
+
+
+
+
+
+
+
+							<li><a href='https://theotherboard.com/listings'>Listings</a></li>
+
+
+
+
+
+
+							<li><a href='https://theotherboard.com/escort-reviews'>Reviews</a></li>
+
+
+
+
+
+
+							<li class='ipsDrawer_itemParent'>
+								<h4 class='ipsDrawer_title'><a href='#'>Forum</a></h4>
+								<ul class='ipsDrawer_list'>
+									<li data-action="back"><a href='#'>Back</a></li>
+
+
+
+
+
+
+
+									<li>
+										<a href='https://theotherboard.com/forum/index.php?/'>
+											Forums
+										</a>
+									</li>
+
+
+
+
+
+
+
+									<li>
+										<a href='https://theotherboard.com/forum/index.php?/staff/'>
+											Staff
+										</a>
+									</li>
+
+
+
+
+
+									<li>
+										<a href='https://theotherboard.com/forum/index.php?/online/'>
+											Online Users
+										</a>
+									</li>
+
+
+
+
+
+									<li>
+										<a href='https://theotherboard.com/forum/index.php?/411/'>
+											411
+										</a>
+									</li>
+
+
+
+
+
+								</ul>
+							</li>
+
+
+
+
+
+
+							<li class='ipsDrawer_itemParent'>
+								<h4 class='ipsDrawer_title'><a href='#'>Why Join</a></h4>
+								<ul class='ipsDrawer_list'>
+									<li data-action="back"><a href='#'>Back</a></li>
+
+
+
+
+
+
+
+									<li>
+										<a href='https://theotherboard.com/page/1'>
+											Gentleman
+										</a>
+									</li>
+
+
+
+
+
+									<li>
+										<a href='https://theotherboard.com/page/2'>
+											Ladies
+										</a>
+									</li>
+
+
+
+
+
+								</ul>
+							</li>
+
+
+
+
+
+
+							<li class='ipsDrawer_itemParent'>
+								<h4 class='ipsDrawer_title'><a href='#'>Help</a></h4>
+								<ul class='ipsDrawer_list'>
+									<li data-action="back"><a href='#'>Back</a></li>
+
+
+
+
+
+
+
+									<li>
+										<a href='https://theotherboard.com/page/3'>
+											Gentlemen
+										</a>
+									</li>
+
+
+
+
+
+									<li>
+										<a href='https://theotherboard.com/page/4'>
+											Ladies
+										</a>
+									</li>
+
+
+
+
+
+								</ul>
+							</li>
+
+
+
+
+
+
+							<li class='ipsDrawer_itemParent'>
+								<h4 class='ipsDrawer_title'><a href='#'>Activity</a></h4>
+								<ul class='ipsDrawer_list'>
+									<li data-action="back"><a href='#'>Back</a></li>
+
+
+
+
+
+
+
+									<li>
+										<a href='https://theotherboard.com/forum/index.php?/discover/'>
+											All Activity
+										</a>
+									</li>
+
+
+
+
+
+
+
+
+
+
+
+									<li>
+										<a href='https://theotherboard.com/forum/index.php?/search/'>
+											Search
+										</a>
+									</li>
+
+
+
+
+
+								</ul>
+							</li>
+
+
+
+
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--googleon: all-->
+	<div class="content container">
+
+		<!--<div id='main-header'>
+							<div><a href='https://theotherboard.com/index'><img class='img-responsive' src='https://theotherboard.com/img/logo.png' alt='TheOtherBoard' /></a></div>
+						<div>	<div class='user-panel right-align'>
+			<a href="https://theotherboard.com/login" class="">Login</a>&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="https://theotherboard.com/register/1" class="btn btn-primary">Join</a>
+	</div></div>
+		</div>
+		<nav class="navbar navbar-default " role="navigation">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar" aria-expanded="false" aria-controls="main-navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#"></a>
+			</div>
+			<div id="main-navbar" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li ><a href="https://theotherboard.com/listings">Listings</a></li>
+					<li ><a href="https://theotherboard.com/escort-reviews">Reviews</a></li>
+					<li><a href="https://theotherboard.com/forum">Forum</a></li>
+					<li class='dropdown'>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Why Join<span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="https://theotherboard.com/page/1">Men</a></li>
+							<li><a href="https://theotherboard.com/page/2">Women</a></li>
+						</ul>
+					</li>
+					<li class='dropdown'>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Help<span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="https://theotherboard.com/page/3">Men</a></li>
+							<li><a href="https://theotherboard.com/page/4">Women</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+
+		<div class='row'>
+			<div class='col-sm-12'>
+							</div>
+		</div>
+		-->
+		<h3>JoDoe27's Profile </h3>
+		<!--googleoff: all-->
+		<!--  -->
+		<!--googleon: all-->
+		<div class='row'>
+			<div class='col-sm-12'>
+				<div class='generic-container info-panel'>
+					<section class='padding'>
+						<div class='row'>
+							<div class='col-sm-3 no-padding-right center preview-wrapper'>
+								<img class='preview-image'
+									src='https://secure.gravatar.com/avatar/97ba6c6145251cf026844793d388a424?d=https%3A%2F%2Ftheotherboard.com%2Fforum%2Fuploads%2Fset_resources_2%2F84c1e40ea0e759e3f1505eb1788ddf3c_default_photo.png'
+									alt='User Image' />
+							</div>
+							<div class='col-sm-7'>
+								<div>
+									<h3>JoDoe27</h3>
+									<div>Member Since 8/18/15</div>
+									<div class='provider-info'>
+
+										<span class='info'></span>
+									</div>
+									<div class='provider-info'>
+
+										<span class='info'>P411 Member</span>
+									</div>
+								</div>
+							</div>
+							<div class='col-sm-2'>
+								<a href="https://theotherboard.com/forum/index.php?/messenger/compose/&amp;to=6631"
+									class="btn btn-secondary btn-block bottom-buffer" data-ipsdialog="data-ipsdialog"
+									data-ipsdialog-title="Compose New"
+									data-ipsdialog-remotesubmit="data-ipsdialog-remotesubmit"
+									data-ipsdialog-flashmessage="Message Sent.">Send Message</a>
+								<a href="https://theotherboard.com/forum/index.php?app=core&module=members&controller=profile&id=6631"
+									class="btn btn-secondary btn-block bottom-buffer">Forum Stats</a>
+							</div>
+						</div>
+					</section>
+				</div>
+
+				<div class="generic-container info-panel padding border-black">
+					<h3>Reviews (13)</h3>
+					<p>Hover over the Review, click to expand and read entire review, click to collapse <a
+							data-help-popup='review'><span class='glyphicon glyphicon-question-sign'></span></a></p>
+					<p>Legend: E = Experience, # = Number of Reviews, Date = Review Submitted</p>
+					<table class='expanding-table reviews'>
+						<thead>
+							<tr>
+								<th></th>
+								<th> Provider </th>
+								<th>E</th>
+								<th>#</th>
+								<th>Date</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr class='normal-row'>
+								<td></td>
+								<td>
+									<a href="https://theotherboard.com/users/106085">Dixie-4345</a>
+								</td>
+								<td>Yes</td>
+								<td>
+									51
+								</td>
+								<td>2/2/20</td>
+							</tr>
+							<tr class='expanding-row'>
+								<td colspan='5'>
+									<div class='outer'>
+										<div class='review-details inner'>
+
+											<span>Seen on 12/31/19</span>
+											<hr />
+											<span><strong>Time:</strong> 15 min</span>
+											<span><strong>Location:</strong>
+												Westminster</span><span><strong>In-Call/Out-Call:</strong>
+												In-Call</span>
+											<hr />
+											<span><strong>Experience:</strong> Yes</span>
+											<span><strong>Recommend?:</strong> Yes</span>
+											<span><strong>Smoking:</strong> Unknown</span>
+											<span><strong>Pictures Accurate:</strong> Yes</span>
+											<hr />
+											<span><strong>Additional Website Link:</strong> <a
+													href="https://theotherboard.com/users/106085" rel="external"
+													target="_blank">https://theotherboard.com/users/106085</a></span>
+											<hr />
+											<p class='pre-format'><strong>Experience Description:</strong> I was in my
+												way to Denver but had a little extra time so I reached out to Dixie. I
+												had one very specific need and she gladly fulfilled it. I&rsquo;ve seen
+												her a few times now and will continue to do so. </p>
+
+											<hr />
+											<span><strong>Age: </strong> 28</span> <span><strong>Hair Color:
+												</strong></span><span>Red</span>
+											<span><strong>Tattoos: </strong></span><span>None</span>
+											<span><strong>Piercings: </strong></span><span>None</span>
+											<span><strong>Body Type: </strong></span><span>Curvy</span>
+											<span><strong>Ethnicity: </strong></span><span>Caucasian</span>
+											<span><strong>Eyes: </strong></span><span>Green</span>
+											<span><strong>Grooming: </strong></span><span>Trimmed</span>
+											<span><strong>Smoker: </strong></span><span>No</span>
+											<span><strong>Breasts: </strong></span><span>Natural</span>
+											<span><strong>Measurements: </strong> 36DDD+-N/A-N/A</span>
+
+
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr class='normal-row'>
+								<td></td>
+								<td>
+									<a href="https://theotherboard.com/users/129634">The Official Kylie Rose</a>
+								</td>
+								<td>Yes</td>
+								<td>
+									10
+								</td>
+								<td>2/2/20</td>
+							</tr>
+							<tr class='expanding-row'>
+								<td colspan='5'>
+									<div class='outer'>
+										<div class='review-details inner'>
+
+											<span>Seen on 1/3/20</span>
+											<hr />
+											<span><strong>Time:</strong> 1 hr</span>
+											<span><strong>Location:</strong>
+												Boulder</span><span><strong>In-Call/Out-Call:</strong> In-Call</span>
+											<hr />
+											<span><strong>Experience:</strong> Yes</span>
+											<span><strong>Recommend?:</strong> Yes</span>
+											<span><strong>Smoking:</strong> Not that I could tell</span>
+											<span><strong>Pictures Accurate:</strong> Yes</span>
+											<hr />
+											<p class='pre-format'><strong>Experience Description:</strong> I don&rsquo;t
+												really have much else to add in this reviews that&rsquo;s different from
+												my last. It&rsquo;s always fun seeing Kylie and catching up. She&rsquo;s
+												definitely worth visiting if you can and in my top go to for FBSM. </p>
+
+											<hr />
+											<span><strong>Age: </strong> 29</span> <span><strong>Hair Color:
+												</strong></span><span>Brunette</span>
+											<span><strong>Tattoos: </strong></span><span>None</span>
+											<span><strong>Piercings: </strong></span><span>None</span>
+											<span><strong>Body Type: </strong></span><span>Curvy</span>
+											<span><strong>Ethnicity: </strong></span><span>Caucasian</span>
+											<span><strong>Eyes: </strong></span><span>Hazel</span>
+											<span><strong>Grooming: </strong></span><span>Landing Strip</span>
+											<span><strong>Smoker: </strong></span><span>No</span>
+											<span><strong>Breasts: </strong></span><span>Natural</span>
+											<span><strong>Measurements: </strong> 34C-N/A-N/A</span>
+
+
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr class='normal-row'>
+								<td></td>
+								<td>
+									<a href="https://theotherboard.com/users/114546">Kitty Mckenzie</a>
+								</td>
+								<td>Yes</td>
+								<td>
+									21
+								</td>
+								<td>2/2/20</td>
+							</tr>
+							<tr class='expanding-row'>
+								<td colspan='5'>
+									<div class='outer'>
+										<div class='review-details inner'>
+
+											<span>Seen on 1/27/20</span>
+											<hr />
+											<span><strong>Time:</strong> 1 hr</span>
+											<span><strong>Location:</strong>
+												Boulder</span><span><strong>In-Call/Out-Call:</strong> In-Call</span>
+											<hr />
+											<span><strong>Experience:</strong> Yes</span>
+											<span><strong>Recommend?:</strong> Yes</span>
+											<span><strong>Smoking:</strong> Not that I could tell</span>
+											<span><strong>Pictures Accurate:</strong> Yes</span>
+											<hr />
+											<span><strong>Additional Website Link:</strong> <a
+													href="https://theotherboard.com/users/114546" rel="external"
+													target="_blank">https://theotherboard.com/users/114546</a></span>
+											<hr />
+											<p class='pre-format'><strong>Experience Description:</strong> I&rsquo;ve
+												seen Kitty a handful of times now and it&rsquo;s always a pleasure when
+												our schedules align. She&rsquo;s incredibly chill and very relaxing.
+												Great conversation, great massage, great downtown Boulder location when
+												she&rsquo;s in Boulder. </p>
+
+											<hr />
+											<span><strong>Age: </strong> 31</span> <span><strong>Hair Color:
+												</strong></span><span>Brunette</span>
+											<span><strong>Tattoos: </strong></span><span>Some</span>
+											<span><strong>Piercings: </strong></span><span>None</span>
+											<span><strong>Body Type: </strong></span><span>Athletic</span>
+											<span><strong>Ethnicity: </strong></span><span>Caucasian</span>
+											<span><strong>Eyes: </strong></span><span>Brown</span>
+											<span><strong>Grooming: </strong></span><span>Landing Strip</span>
+											<span><strong>Smoker: </strong></span><span>No</span>
+											<span><strong>Breasts: </strong></span><span>Natural</span>
+											<span><strong>Measurements: </strong> 36C-N/A-N/A</span>
+
+
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr class='normal-row'>
+								<td></td>
+								<td>
+									<a href="https://theotherboard.com/users/126385">Sensual Sasha</a>
+								</td>
+								<td>Yes</td>
+								<td>
+									31
+								</td>
+								<td>5/11/19</td>
+							</tr>
+							<tr class='expanding-row'>
+								<td colspan='5'>
+									<div class='outer'>
+										<div class='review-details inner'>
+
+											<span>Seen on 4/13/19</span>
+											<hr />
+											<span><strong>Time:</strong> 1 hr</span>
+											<span><strong>Location:</strong>
+												Boulder</span><span><strong>In-Call/Out-Call:</strong> In-Call</span>
+											<hr />
+											<span><strong>Experience:</strong> Yes</span>
+											<span><strong>Recommend?:</strong> Yes</span>
+											<span><strong>Smoking:</strong> Not that I could tell</span>
+											<span><strong>Pictures Accurate:</strong> Yes</span>
+											<hr />
+											<span><strong>Additional Website Link:</strong> <a
+													href="https://theotherboard.com/users/126385" rel="external"
+													target="_blank">https://theotherboard.com/users/126385</a></span>
+											<hr />
+											<p class='pre-format'><strong>Experience Description:</strong> Sasha was the
+												first FBSM provider I saw when I decided to give FBSM a try. Needless to
+												say I was hooked and have enjoy this style for a while now. Sasha is
+												very soothing and calming in her clean and private incall. Indefinitely
+												enjoyed myself. </p>
+
+											<hr />
+											<span><strong>Age: </strong> 39</span> <span><strong>Hair Color:
+												</strong></span><span>Blonde</span>
+											<span><strong>Tattoos: </strong></span><span>Some</span>
+											<span><strong>Piercings: </strong></span><span>None</span>
+											<span><strong>Body Type: </strong></span><span>Athletic</span>
+											<span><strong>Ethnicity: </strong></span><span>Caucasian</span>
+											<span><strong>Eyes: </strong></span><span>Green</span>
+											<span><strong>Grooming: </strong></span><span>Trimmed</span>
+											<span><strong>Smoker: </strong></span><span>No</span>
+											<span><strong>Breasts: </strong></span><span>Natural</span>
+											<span><strong>Measurements: </strong> 34D-26-36</span>
+
+
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr class='normal-row'>
+								<td></td>
+								<td>
+									<a href="https://theotherboard.com/users/114137">Jenna_James</a>
+								</td>
+								<td>Yes</td>
+								<td>
+									27
+								</td>
+								<td>3/28/19</td>
+							</tr>
+							<tr class='expanding-row'>
+								<td colspan='5'>
+									<div class='outer'>
+										<div class='review-details inner'>
+
+											<span>Seen on 3/11/19</span>
+											<hr />
+											<span><strong>Time:</strong> 30 min</span>
+											<span><strong>Location:</strong>
+												Westminster</span><span><strong>In-Call/Out-Call:</strong>
+												In-Call</span>
+											<hr />
+											<span><strong>Experience:</strong> Yes</span>
+											<span><strong>Recommend?:</strong> Yes</span>
+											<span><strong>Smoking:</strong> Not that I could tell</span>
+											<span><strong>Pictures Accurate:</strong> Yes</span>
+											<hr />
+											<span><strong>Additional Website Link:</strong> <a
+													href="https://theotherboard.com/users/114137" rel="external"
+													target="_blank">https://theotherboard.com/users/114137</a></span>
+											<hr />
+											<p class='pre-format'><strong>Experience Description:</strong> Communication
+												was prompt and easy. She agreed to the time that fit and even offered
+												others to help with flexibility. Clean, safe, timely, easy going, and
+												definitely the girl in pictures. I plan to repeat. </p>
+
+											<hr />
+											<span><strong>Age: </strong> 24</span> <span><strong>Hair Color:
+												</strong></span><span>Blonde</span>
+											<span><strong>Tattoos: </strong></span><span>Some</span>
+											<span><strong>Piercings: </strong></span><span>Some</span>
+											<span><strong>Body Type: </strong></span><span>Average</span>
+											<span><strong>Ethnicity: </strong></span><span>Caucasian</span>
+											<span><strong>Eyes: </strong></span><span>Green</span>
+											<span><strong>Grooming: </strong></span><span>Bare</span>
+											<span><strong>Smoker: </strong></span><span>Yes</span>
+											<span><strong>Breasts: </strong></span><span>Natural</span>
+											<span><strong>Measurements: </strong> 32C-N/A-N/A</span>
+
+
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr class='normal-row'>
+								<td></td>
+								<td>
+									<a href="https://theotherboard.com/users/121080">Hunter VanDyke</a>
+								</td>
+								<td>Yes</td>
+								<td>
+									73
+								</td>
+								<td>3/8/19</td>
+							</tr>
+							<tr class='expanding-row'>
+								<td colspan='5'>
+									<div class='outer'>
+										<div class='review-details inner'>
+
+											<span>Seen on 3/4/19</span>
+											<hr />
+											<span><strong>Time:</strong> 30 min</span>
+											<span><strong>Location:</strong>
+												Boulder</span><span><strong>In-Call/Out-Call:</strong> In-Call</span>
+											<hr />
+											<span><strong>Experience:</strong> Yes</span>
+											<span><strong>Recommend?:</strong> Yes</span>
+											<span><strong>Smoking:</strong> Not that I could tell</span>
+											<span><strong>Pictures Accurate:</strong> Yes</span>
+											<hr />
+											<span><strong>Additional Website Link:</strong> <a
+													href="https://theotherboard.com/users/121080" rel="external"
+													target="_blank">https://theotherboard.com/users/121080</a></span>
+											<hr />
+											<p class='pre-format'><strong>Experience Description:</strong> I can&rsquo;t
+												really add much that hasn&rsquo;t already been said. Clean incall, quick
+												and responsive communication and directions, and a really pleasurable
+												experience. I will repeat. </p>
+
+											<hr />
+											<span><strong>Age: </strong> 46</span> <span><strong>Hair Color:
+												</strong></span><span>Other</span>
+											<span><strong>Tattoos: </strong></span><span>None</span>
+											<span><strong>Piercings: </strong></span><span>None</span>
+											<span><strong>Body Type: </strong></span><span>Average</span>
+											<span><strong>Ethnicity: </strong></span><span>Caucasian</span>
+											<span><strong>Eyes: </strong></span><span>Hazel</span>
+											<span><strong>Grooming: </strong></span><span>Bare</span>
+											<span><strong>Smoker: </strong></span><span>No</span>
+											<span><strong>Breasts: </strong></span><span>Enhanced</span>
+											<span><strong>Measurements: </strong> 36D-N/A-N/A</span>
+
+
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr class='normal-row'>
+								<td></td>
+								<td>
+									<a href="https://theotherboard.com/users/129634">The Official Kylie Rose</a>
+								</td>
+								<td>Yes</td>
+								<td>
+									10
+								</td>
+								<td>2/20/19</td>
+							</tr>
+							<tr class='expanding-row'>
+								<td colspan='5'>
+									<div class='outer'>
+										<div class='review-details inner'>
+
+											<span>Seen on 2/8/19</span>
+											<hr />
+											<span><strong>Time:</strong> 1 hr</span>
+											<span><strong>Location:</strong>
+												Boulder</span><span><strong>In-Call/Out-Call:</strong> In-Call</span>
+											<hr />
+											<span><strong>Experience:</strong> Yes</span>
+											<span><strong>Recommend?:</strong> Yes</span>
+											<span><strong>Smoking:</strong> Unknown</span>
+											<span><strong>Pictures Accurate:</strong> Yes</span>
+											<hr />
+											<span><strong>Additional Website Link:</strong> <a
+													href="https://theotherboard.com/users/129634" rel="external"
+													target="_blank">https://theotherboard.com/users/129634</a></span>
+											<hr />
+											<p class='pre-format'><strong>Experience Description:</strong> I knew of
+												Kylie as she was recommended by another FBSM provider so I reached out.
+												Setup was easy with clear communication. I was a few minutes late
+												because unexpected construction but I let her know and she was more than
+												cool about it. All in all it was a great massage from an incredibly
+												chill provider. I will repeat. </p>
+
+											<hr />
+											<span><strong>Age: </strong> 28</span> <span><strong>Hair Color:
+												</strong></span><span>Brunette</span>
+											<span><strong>Tattoos: </strong></span><span>None</span>
+											<span><strong>Piercings: </strong></span><span>None</span>
+											<span><strong>Body Type: </strong></span><span>Curvy</span>
+											<span><strong>Ethnicity: </strong></span><span>Caucasian</span>
+											<span><strong>Eyes: </strong></span><span>Hazel</span>
+											<span><strong>Grooming: </strong></span><span>Landing Strip</span>
+											<span><strong>Smoker: </strong></span><span>No</span>
+											<span><strong>Breasts: </strong></span><span>Natural</span>
+											<span><strong>Measurements: </strong> 34C-N/A-N/A</span>
+
+
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr class='normal-row'>
+								<td></td>
+								<td>
+									<a href="https://theotherboard.com/users/132670">Chloe Conifer</a>
+								</td>
+								<td>Yes</td>
+								<td>
+									32
+								</td>
+								<td>12/24/18</td>
+							</tr>
+							<tr class='expanding-row'>
+								<td colspan='5'>
+									<div class='outer'>
+										<div class='review-details inner'>
+
+											<span>Seen on 12/14/18</span>
+											<hr />
+											<span><strong>Time:</strong> 2 hrs</span>
+											<span><strong>Location:</strong>
+												Boulder</span><span><strong>In-Call/Out-Call:</strong> Out-Call</span>
+											<hr />
+											<span><strong>Experience:</strong> Yes</span>
+											<span><strong>Recommend?:</strong> Yes</span>
+											<span><strong>Smoking:</strong> Not that I could tell</span>
+											<span><strong>Pictures Accurate:</strong> Yes</span>
+											<hr />
+											<span><strong>Additional Website Link:</strong> <a
+													href="https://theotherboard.com/users/132670" rel="external"
+													target="_blank">https://theotherboard.com/users/132670</a></span>
+											<hr />
+											<p class='pre-format'><strong>Experience Description:</strong> First off,
+												have your references in order because she will check them. She&#039;s
+												quick to respond and communicates well. I&#039;m sort of at a loss for
+												words for this date, but it was more fun than I&#039;ve had in a while.
+												Pictures are accurate, she was on time, and if our schedules align again
+												I&#039;ll see her without question. </p>
+
+											<hr />
+											<span><strong>Age: </strong> 26</span> <span><strong>Hair Color:
+												</strong></span><span>Red</span>
+											<span><strong>Tattoos: </strong></span><span>None</span>
+											<span><strong>Piercings: </strong></span><span>Some</span>
+											<span><strong>Body Type: </strong></span><span>Curvy</span>
+											<span><strong>Ethnicity: </strong></span><span>Caucasian</span>
+											<span><strong>Eyes: </strong></span><span>Blue</span>
+											<span><strong>Grooming: </strong></span><span>Bare</span>
+											<span><strong>Smoker: </strong></span><span>No</span>
+											<span><strong>Breasts: </strong></span><span>Natural</span>
+											<span><strong>Measurements: </strong> 36DD-30-46</span>
+
+
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr class='normal-row'>
+								<td></td>
+								<td>
+									<a href="https://theotherboard.com/users/131466">Lilyfishbubbles</a>
+								</td>
+								<td>Yes</td>
+								<td>
+									21
+								</td>
+								<td>12/24/18</td>
+							</tr>
+							<tr class='expanding-row'>
+								<td colspan='5'>
+									<div class='outer'>
+										<div class='review-details inner'>
+
+											<span>Seen on 12/11/18</span>
+											<hr />
+											<span><strong>Time:</strong> 1 hr</span>
+											<span><strong>Location:</strong>
+												Boulder</span><span><strong>In-Call/Out-Call:</strong> In-Call</span>
+											<hr />
+											<span><strong>Experience:</strong> Yes</span>
+											<span><strong>Recommend?:</strong> Yes</span>
+											<span><strong>Smoking:</strong> Not that I could tell</span>
+											<span><strong>Pictures Accurate:</strong> Yes</span>
+											<hr />
+											<span><strong>Additional Website Link:</strong> <a
+													href="https://theotherboard.com/users/131466" rel="external"
+													target="_blank">https://theotherboard.com/users/131466</a></span>
+											<hr />
+											<p class='pre-format'><strong>Experience Description:</strong> The other
+												reviews are spot on. Follow her lead. Follow her instructions. Just do
+												exactly as she says and you will not be disappointed. While it&#039;s
+												not NURU it&#039;s as close as I&#039;ve come to one that&#039;s for
+												sure. </p>
+
+											<hr />
+											<span><strong>Age: </strong> 23</span> <span><strong>Hair Color:
+												</strong></span><span>Brown</span>
+											<span><strong>Tattoos: </strong></span><span>Some</span>
+											<span><strong>Piercings: </strong></span><span>Some</span>
+											<span><strong>Body Type: </strong></span><span>Athletic</span>
+											<span><strong>Ethnicity: </strong></span><span>Caucasian</span>
+											<span><strong>Eyes: </strong></span><span>Brown</span>
+											<span><strong>Grooming: </strong></span><span>Trimmed</span>
+											<span><strong>Smoker: </strong></span><span>Yes</span>
+											<span><strong>Breasts: </strong></span><span>Natural</span>
+											<span><strong>Measurements: </strong> 32DD-27-40</span>
+
+
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr class='normal-row'>
+								<td></td>
+								<td>
+									<a href="https://theotherboard.com/users/121702">NatalieXSensual</a>
+								</td>
+								<td>Yes</td>
+								<td>
+									24
+								</td>
+								<td>12/24/18</td>
+							</tr>
+							<tr class='expanding-row'>
+								<td colspan='5'>
+									<div class='outer'>
+										<div class='review-details inner'>
+
+											<span>Seen on 12/8/18</span>
+											<hr />
+											<span><strong>Time:</strong> 1 hr</span>
+											<span><strong>Location:</strong>
+												Boulder</span><span><strong>In-Call/Out-Call:</strong> In-Call</span>
+											<hr />
+											<span><strong>Experience:</strong> Yes</span>
+											<span><strong>Recommend?:</strong> Yes</span>
+											<span><strong>Smoking:</strong> Not that I could tell</span>
+											<span><strong>Pictures Accurate:</strong> Yes</span>
+											<hr />
+											<span><strong>Additional Website Link:</strong> <a
+													href="https://theotherboard.com/users/121702" rel="external"
+													target="_blank">https://theotherboard.com/users/121702</a></span>
+											<hr />
+											<p class='pre-format'><strong>Experience Description:</strong> I actually
+												only knew of Natalie because she was recommended by another provider
+												she&#039;s friends with that I&#039;ve seen. Her ads don&#039;t stay up
+												long and from what I can tell she seldom posts new ones so if you see it
+												appear contact her immediately if you want to book. Have your references
+												in order. Pictures are accurate, clean incall in Boulder with zero
+												parking issues. </p>
+
+											<hr />
+											<span><strong>Age: </strong> 25</span> <span><strong>Hair Color:
+												</strong></span><span>Brunette</span>
+											<span><strong>Tattoos: </strong></span><span>None</span>
+											<span><strong>Piercings: </strong></span><span>None</span>
+											<span><strong>Body Type: </strong></span><span>Athletic</span>
+											<span><strong>Ethnicity: </strong></span><span>Asian</span>
+											<span><strong>Eyes: </strong></span><span>Brown</span>
+											<span><strong>Grooming: </strong></span><span>Landing Strip</span>
+											<span><strong>Smoker: </strong></span><span>No</span>
+											<span><strong>Breasts: </strong></span><span>Natural</span>
+											<span><strong>Measurements: </strong> 32D-N/A-N/A</span>
+
+
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr class='normal-row'>
+								<td></td>
+								<td>
+									<a href="https://theotherboard.com/users/125578">Dani Panti</a>
+								</td>
+								<td>Yes</td>
+								<td>
+									30
+								</td>
+								<td>12/24/18</td>
+							</tr>
+							<tr class='expanding-row'>
+								<td colspan='5'>
+									<div class='outer'>
+										<div class='review-details inner'>
+
+											<span>Seen on 11/26/18</span>
+											<hr />
+											<span><strong>Time:</strong> 1 hr</span>
+											<span><strong>Location:</strong>
+												Boulder</span><span><strong>In-Call/Out-Call:</strong> In-Call</span>
+											<hr />
+											<span><strong>Experience:</strong> Yes</span>
+											<span><strong>Recommend?:</strong> Yes</span>
+											<span><strong>Smoking:</strong> Not that I could tell</span>
+											<span><strong>Pictures Accurate:</strong> Yes</span>
+											<hr />
+											<span><strong>Additional Website Link:</strong> <a
+													href="https://theotherboard.com/users/125578" rel="external"
+													target="_blank">https://theotherboard.com/users/125578</a></span>
+											<hr />
+											<p class='pre-format'><strong>Experience Description:</strong> I&#039;ve
+												seen Dani a couple of times at this point. She&#039;s funny, direct, and
+												for a lack of better words thick as hell. Centrally located incall,
+												quick response, and all the pictures she has in her profile are on
+												point. I don&#039;t really have much else to add from her previous
+												reviews. I definitely recommend seeing her. </p>
+
+											<hr />
+											<span><strong>Age: </strong> 27</span> <span><strong>Hair Color:
+												</strong></span><span>Brunette</span>
+											<span><strong>Tattoos: </strong></span><span>Some</span>
+											<span><strong>Piercings: </strong></span><span>None</span>
+											<span><strong>Body Type: </strong></span><span>Athletic</span>
+											<span><strong>Ethnicity: </strong></span><span>Caucasian</span>
+											<span><strong>Eyes: </strong></span><span>Green</span>
+											<span><strong>Grooming: </strong></span><span>Bare</span>
+											<span><strong>Smoker: </strong></span><span>No</span>
+											<span><strong>Breasts: </strong></span><span>Enhanced</span>
+											<span><strong>Measurements: </strong> 34DDD-29-36</span>
+
+
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr class='normal-row'>
+								<td></td>
+								<td>
+									<a href="https://theotherboard.com/users/116470">SireneSpace</a>
+								</td>
+								<td>Yes</td>
+								<td>
+									36
+								</td>
+								<td>12/24/18</td>
+							</tr>
+							<tr class='expanding-row'>
+								<td colspan='5'>
+									<div class='outer'>
+										<div class='review-details inner'>
+
+											<span>Seen on 11/29/18</span>
+											<hr />
+											<span><strong>Time:</strong> 1 hr</span>
+											<span><strong>Location:</strong>
+												Boulder</span><span><strong>In-Call/Out-Call:</strong> In-Call</span>
+											<hr />
+											<span><strong>Experience:</strong> Yes</span>
+											<span><strong>Recommend?:</strong> Yes</span>
+											<span><strong>Smoking:</strong> Not that I could tell</span>
+											<span><strong>Pictures Accurate:</strong> Yes</span>
+											<hr />
+											<span><strong>Additional Website Link:</strong> <a
+													href="https://theotherboard.com/users/116470" rel="external"
+													target="_blank">https://theotherboard.com/users/116470</a></span>
+											<hr />
+											<p class='pre-format'><strong>Experience Description:</strong> I&#039;ve
+												seen Sirene a number of times at this point and each time is better than
+												the one before. Initial contact was through p411, and she was quick to
+												respond. Photos are accurate. Her incall is nondescript and easy to find
+												in Boulder. She gives the most sensual massage I&#039;ve received so
+												far. </p>
+
+											<hr />
+											<span><strong>Age: </strong> 38</span> <span><strong>Hair Color:
+												</strong></span><span>Black</span>
+											<span><strong>Tattoos: </strong></span><span>Some</span>
+											<span><strong>Piercings: </strong></span><span>None</span>
+											<span><strong>Body Type: </strong></span><span>Athletic</span>
+											<span><strong>Ethnicity: </strong></span><span>Caucasian</span>
+											<span><strong>Eyes: </strong></span><span>Brown</span>
+											<span><strong>Grooming: </strong></span><span>Landing Strip</span>
+											<span><strong>Smoker: </strong></span><span>No</span>
+											<span><strong>Breasts: </strong></span><span>Natural</span>
+											<span><strong>Measurements: </strong> 36D-N/A-N/A</span>
+
+
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr class='normal-row'>
+								<td></td>
+								<td>
+									<a href="https://theotherboard.com/users/114546">Kitty Mckenzie</a>
+								</td>
+								<td>Yes</td>
+								<td>
+									21
+								</td>
+								<td>12/22/18</td>
+							</tr>
+							<tr class='expanding-row'>
+								<td colspan='5'>
+									<div class='outer'>
+										<div class='review-details inner'>
+
+											<span>Seen on 12/19/18</span>
+											<hr />
+											<span><strong>Time:</strong> 1 hr</span>
+											<span><strong>Location:</strong>
+												Boulder</span><span><strong>In-Call/Out-Call:</strong> In-Call</span>
+											<hr />
+											<span><strong>Experience:</strong> Yes</span>
+											<span><strong>Recommend?:</strong> Yes</span>
+											<span><strong>Smoking:</strong> Not that I could tell</span>
+											<span><strong>Pictures Accurate:</strong> Yes</span>
+											<hr />
+											<span><strong>Additional Website Link:</strong> <a
+													href="https://theotherboard.com/users/114546" rel="external"
+													target="_blank">https://theotherboard.com/users/114546</a></span>
+											<hr />
+											<p class='pre-format'><strong>Experience Description:</strong> It probably
+												took a couple months for our schedules to align, and thankfully they
+												finally did. Kitty is amazing and definitely worth seeing. Nice, clean
+												incall. Pictures are accurate and up to date. She readily communicates.
+												Standard rules for a FBSM. And Nice body to body contact. I will repeat.
+											</p>
+
+											<hr />
+											<span><strong>Age: </strong> 30</span> <span><strong>Hair Color:
+												</strong></span><span>Brunette</span>
+											<span><strong>Tattoos: </strong></span><span>Some</span>
+											<span><strong>Piercings: </strong></span><span>None</span>
+											<span><strong>Body Type: </strong></span><span>Athletic</span>
+											<span><strong>Ethnicity: </strong></span><span>Caucasian</span>
+											<span><strong>Eyes: </strong></span><span>Brown</span>
+											<span><strong>Grooming: </strong></span><span>Landing Strip</span>
+											<span><strong>Smoker: </strong></span><span>No</span>
+											<span><strong>Breasts: </strong></span><span>Natural</span>
+											<span><strong>Measurements: </strong> 36C-N/A-N/A</span>
+
+
+										</div>
+									</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<!--
+		<div id="google_translate_element"></div>
+		<script type="text/javascript">
+			function googleTranslateElementInit()
+			{
+				new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+			}
+		</script>
+		<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+		-->
+		<div>
+			<a href="https://theotherboard.com/rules">Site Rules</a>
+			| <a href="https://theotherboard.com/terms">Terms and Conditions</a>
+			| <a href="https://theotherboard.com/privacy-policy">Privacy Policy</a>
+			| <a href="https://theotherboard.com/2257-exemption">2257 Exemption</a>
+			| <a href="https://theotherboard.com/contact-us/create">Contact Us</a>
+		</div>
+		<div class='subtle'>
+			<a href="https://theotherboard.com">TheOtherBoard.com</a> &copy; 2020
+		</div>
+	</footer>
+	<script src="https://theotherboard.com/js/jquery-ui-1.10.4.custom.min.js"></script>
+
+	<script src="https://theotherboard.com/js/jquery.maskedinput.min.js"></script>
+
+	<script src="https://theotherboard.com/js/modernizr.custom.74940.js"></script>
+
+	<script src="https://theotherboard.com/js/bootstrap.js"></script>
+
+	<script src="https://theotherboard.com/js/bootstrap-select.js"></script>
+
+	<script src="https://theotherboard.com/js/bootbox.min.js"></script>
+
+	<script src="https://theotherboard.com/js/jquery.timepicker.min.js"></script>
+
+	<script src="https://theotherboard.com/js/jquery.ui.widget.js"></script>
+
+	<script src="https://theotherboard.com/js/jquery.fileupload.js"></script>
+
+	<script src="https://theotherboard.com/js/jquery.magnific-popup.min.js"></script>
+
+	<script src="https://theotherboard.com/js/jquery.sceditor.bbcode.min.js"></script>
+
+	<script src="https://theotherboard.com/js/jquery.button-checkbox.js"></script>
+
+	<script src="https://theotherboard.com/js/jquery.button-radio.js"></script>
+
+	<script src="https://theotherboard.com/js/gallery.js"></script>
+
+	<script src="https://theotherboard.com/js/gallery-multi-popups.js"></script>
+
+	<script src="https://theotherboard.com/js/slider.js"></script>
+
+	<script src="https://theotherboard.com/js/main.js"></script>
+
+</body>
+
+</html>
