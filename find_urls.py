@@ -18,10 +18,10 @@ people = set()
 
 cookies= {
 
-        "ips4_IPSSessionFront":"vu698a7t6eovk76udpbj93aog1",
+        "ips4_IPSSessionFront":"b7gt46bq53fiqsvcabid5q9f01",
         "ips4_ipsTimezone":"America/Denver",
         "ips4_hasJS":"true",
-        "laravel_session":	"eyJpdiI6Ik9hRDE2Q2ExRGlhY3JDczkxOEFSaXc9PSIsInZhbHVlIjoib3BhNEs1NDAzMzVoOVlWeGtBNU9MUWpndUlWdjNpQ1wvNklVS3RCeDZHSEp0SnRQMlFmMWhPN1RsYTJVTUxcL3JFQWhCUkRzTnNuVHRpQU9cL2tcL21aUGR3PT0iLCJtYWMiOiJmMGNmMjg1NjM3ZWIwOWRlNzNjOGQ4MjU4M2FjZjViZTBlZTdkZDVlM2EwNjEyMmJlNjVkODNhZGZmMTU2ZGY0In0%3D"
+        "laravel_session":"eyJpdiI6IkVQaUJoOG0wT0VrYmk3NXlPYVBtZGc9PSIsInZhbHVlIjoiY0xhVmdhRGZHTW8zV2lURWxcL2lTeDRmWDZGZFRoSVR2ZlwvOFM5NTBrRlwvdnhpVlVsU3JmNWYzWmZkdENIVmdUQzRCZFhiXC9seFYyN2RuNjZ2WG5Ccnp3PT0iLCJtYWMiOiIwNGIzZjQ3ZjdlZDk5ZTllZDYyM2U3MmQ2YzIzNTFiNWJjMmNkZDVjYTNhNzIxZmE0ZjVkZTY5NzYwOGM4ZDg2In0%3D"
         }
 
 referenceTable = {} # {name:( buyerFlag, numConributions, index), ...}
