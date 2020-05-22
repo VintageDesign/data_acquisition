@@ -8,7 +8,7 @@ import csv
 import numpy as np
 from  bs4 import  BeautifulSoup
 
-fp = urllib.request.urlopen("https://theotherboard.com/forum/index.php?/forum/28-general-discussion/")
+fp = urllib.request.urlopen("https://theotherboard.com/forum/index.php?/forum/4-colorado/")
 mybytes = fp.read()
 
 data = mybytes.decode("utf8")
@@ -19,22 +19,21 @@ people = set()
 
 cookies= {
 
-        "ips4_IPSSessionFront":"b7gt46bq53fiqsvcabid5q9f01",
+        "ips4_IPSSessionFront":"1co04akst45qivpso3q70hmb47",
         "ips4_ipsTimezone":"America/Denver",
         "ips4_hasJS":"true",
-        "laravel_session":"eyJpdiI6IkVQaUJoOG0wT0VrYmk3NXlPYVBtZGc9PSIsInZhbHVlIjoiY0xhVmdhRGZHTW8zV2lURWxcL2lTeDRmWDZGZFRoSVR2ZlwvOFM5NTBrRlwvdnhpVlVsU3JmNWYzWmZkdENIVmdUQzRCZFhiXC9seFYyN2RuNjZ2WG5Ccnp3PT0iLCJtYWMiOiIwNGIzZjQ3ZjdlZDk5ZTllZDYyM2U3MmQ2YzIzNTFiNWJjMmNkZDVjYTNhNzIxZmE0ZjVkZTY5NzYwOGM4ZDg2In0%3D"
+        "laravel_session":"eyJpdiI6ImZWT21qdEJveDNDcnNRR1lKS1wvc0F3PT0iLCJ2YWx1ZSI6InE0bm1ldVh4VmVcL0FcL29aZ0JcL1FDQlVraEVcL1lEV25tVEdYeFFldk84SGxKYjB6d21ZTjd4RU1TSmk5OU9uYWFBU3pxQXJrcG5kaXJDWFdnWTdcL2hLTEE9PSIsIm1hYyI6IjYwYzY0M2VjMmRlNzI3ZGEwM2MwOWE5YzZhMjJjYzg4OTg5YTE2OTBmOGU3YzVmMjM4NDU5ZjAwYjY1NmUxMDEifQ%3D%3D"
         }
-
 auth_list = set()
-with open('all_comments.csv', 'w') as csvfile:
+with open('covid_data_otherboard.csv', 'w') as csvfile:
 
     writer = csv.writer(csvfile, delimiter='|')
-    writer.writerow(['author', 'profile_href', 'location', 'date_time', 'forum_title',  'comment_text'])
+    writer.writerow(['author', 'profile_href', 'location', 'date_time', 'comment_text'])
 
     for link in soup.find_all('a'):
         href = link.get('href')
         if href is not None:
-            if "corona" in href.lower() or "covid" in href.lower():
+            if "corona" in href.lower() or "covid" in href.lower() or "rona" in href.lower() or 'pandemic' in href.lower() or 'quarantine' in href.lower():
                 fp = urllib.request.urlopen(href)
                 mybytes = fp.read()
 
